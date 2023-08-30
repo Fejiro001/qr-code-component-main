@@ -50,8 +50,9 @@
     }
 
     .text {
-      margin: 1rem;
+      padding: 1rem;
     }
+
     h2 {
       overflow-wrap: break-word;
       padding: 1rem 0 0 0;
@@ -64,18 +65,28 @@
       overflow-wrap: break-word;
       padding: 1rem 0;
       font-weight: 400;
-      font-size: 1em;
+      font-size: 0.95em;
       color: hsl(220, 15%, 55%);
     }
 
     .attribution {
       font-size: .8rem;
       text-align: center;
-      padding: .5rem;
+      padding-top: 2rem;
     }
 
     .attribution a {
       color: hsl(228, 45%, 44%);
+    }
+
+    @media (max-width: 400px) {
+      h2 {
+        font-size: 1.35em;
+      }
+
+      p {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
