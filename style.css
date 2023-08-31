@@ -35,7 +35,7 @@ img {
   padding: 1rem;
 }
 
-h2 {
+h1 {
   overflow-wrap: break-word;
   padding: 1rem 0 0 0;
   font-weight: 700;
@@ -51,18 +51,8 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
-.attribution {
-  font-size: 0.8rem;
-  text-align: center;
-  padding-top: 2rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (max-width: 400px) {
-  h2 {
+  h1 {
     font-size: 1.35em;
   }
 
