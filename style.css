@@ -64,5 +64,5 @@ p {
   padding: .8rem 0 0;
   font-weight: 400;
   font-size: clamp(.95rem, 2vw, 1rem);
-  color: hsl(220, 15%, 55%);
+  color: hsl(220, 15%, 35%);
 }
